@@ -1,0 +1,95 @@
+.jumbotron {
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.7)
+    ),
+    url("images/cafe4.jpg");
+    color: white;
+    height: 728px;
+    margin-bottom: 0px;
+}
+
+#cap {
+   margin: 0; 
+   padding: 0;
+   width:15%; 
+   height: 35%;
+   border-radius: 100px;   
+}
+
+#placing {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+#sizer {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+    );
+    margin-top: 0px;
+    padding-bottom: 30x;
+    height: 430px;
+}
+
+div p, .progress {
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+.col, .col-8 {
+    margin: 10px;
+    height: 250px; 
+    color: aliceblue;
+    padding: 30px;
+    padding-top: 35px;
+}
+
+.row {
+    max-width: 900px;
+    margin: 0 auto;
+} 
+
+div img {
+    width: 2%;
+    height: 2%;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+.bg-dar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+html,body {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #aaa
+}
+
+body {
+    background-image: url("images/cafe.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+h1, h2, h4 {
+    padding-left: 60px;
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+
+h1 { 
+    padding-top: 156px;
+    font-size: 3.5em; 
+}
+
+h2 {
+    
+    color: #888;
+    font-size: 2em;
+}
